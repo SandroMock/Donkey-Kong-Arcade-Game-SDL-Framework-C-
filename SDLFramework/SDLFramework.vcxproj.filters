@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Gamestates">
+      <UniqueIdentifier>{25ab6bce-7ce0-4d09-8464-511e57522dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{fe6bba11-f128-48f5-8a8b-57119529b776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{18f1ce16-946f-49ed-838d-ce018b459112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong">
+      <UniqueIdentifier>{262e3c1a-e720-4fc2-8259-8d4229825e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\Enemy %28Sandro Mock%29">
+      <UniqueIdentifier>{dbab47f1-e508-4d60-8585-13309923c518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\Player &amp; Hammer%28Stephan Weber%29">
+      <UniqueIdentifier>{af185d68-2319-4e5a-9eb5-a9ec1f93a9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\HUD and UI %28Niklas Englmeier%29">
+      <UniqueIdentifier>{21d6ad15-4cda-44f6-8fe7-7ab85db79d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\DataManager %28Niklas Englmeier%29">
+      <UniqueIdentifier>{9c53d1e9-446d-4dd2-8906-b1a051410255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\Environment %28Marcus Schaal%29">
+      <UniqueIdentifier>{455ca83e-2dd3-4bd8-9ac2-dc244360a5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\Environment %28Marcus Schaal%29\Level">
+      <UniqueIdentifier>{eb5a0ba4-9133-403f-9f1a-29d33b7f14ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\Environment %28Marcus Schaal%29\Physics">
+      <UniqueIdentifier>{7be426c5-e8b7-44eb-bb83-8b1243364767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\Environment %28Marcus Schaal%29\Component">
+      <UniqueIdentifier>{4d257ee2-d683-496b-b018-7c9915c7e830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\Environment %28Marcus Schaal%29\GameObjects">
+      <UniqueIdentifier>{8bb672d1-566d-4705-9d22-9a53127acb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\Environment %28Marcus Schaal%29\GameObjects\Tiles">
+      <UniqueIdentifier>{4efd8885-1ff9-4eff-a6eb-bd4828083972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animations">
+      <UniqueIdentifier>{f864b77a-f42f-403d-af06-cc0f34d20792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\Pauline %28Sandro Mock%29">
+      <UniqueIdentifier>{79c4a260-5476-4719-9598-89469725aa4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animations\Win Animation %28Stephan Weber%29">
+      <UniqueIdentifier>{8247cf5b-9145-4af9-830c-714fd859f705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animations\Start Animation %28Stephan Weber%29">
+      <UniqueIdentifier>{e29c221b-8b66-419a-b24c-05cea1ab1cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision">
+      <UniqueIdentifier>{7c759ca3-32c4-48cc-8ff2-1bf2d480ef61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamestate.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestateCredits.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestateLogo.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestateMenu.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestateOptions.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestatePlay.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GamestateManager.h" />
+    <ClInclude Include="Button.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Donkey Kong\Player &amp; Hammer%28Stephan Weber%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Hammer.h">
+      <Filter>Donkey Kong\Player &amp; Hammer%28Stephan Weber%29</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelConfig.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrel.h">
+      <Filter>Donkey Kong\Enemy %28Sandro Mock%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Flame.h">
+      <Filter>Donkey Kong\Enemy %28Sandro Mock%29</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Donkey Kong\DataManager %28Niklas Englmeier%29</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSlot.h">
+      <Filter>Donkey Kong\DataManager %28Niklas Englmeier%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravity.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Ladder.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CircCollObject.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollObject.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Pauline.h">
+      <Filter>Donkey Kong\Pauline %28Sandro Mock%29</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAnimation.h">
+      <Filter>Animations\Win Animation %28Stephan Weber%29</Filter>
+    </ClInclude>
+    <ClInclude Include="StartAnimation.h">
+      <Filter>Animations\Start Animation %28Stephan Weber%29</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestateStartAnimation.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Overlap.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsConfig.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentConfig.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestateHighscore.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrelLadderColl.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="FlameLadderColl.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLadderColl.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="LadderCollision.h">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPanel.h">
+      <Filter>Donkey Kong\HUD and UI %28Niklas Englmeier%29</Filter>
+    </ClInclude>
+    <ClInclude Include="DonkeyKong.h">
+      <Filter>Donkey Kong\Enemy %28Sandro Mock%29</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineConfig.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestateControls.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestateHowHeight.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="GamestateMenuHighscoreConfig.h">
+      <Filter>Gamestates</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamestate.cpp">
+      <Filter>Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="GamestateCredits.cpp">
+      <Filter>Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="GamestateLogo.cpp">
+      <Filter>Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="GamestateMenu.cpp">
+      <Filter>Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="GamestateOptions.cpp">
+      <Filter>Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="GamestatePlay.cpp">
+      <Filter>Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GamestateManager.cpp" />
+    <ClCompile Include="Button.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Donkey Kong\Player &amp; Hammer%28Stephan Weber%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Hammer.cpp">
+      <Filter>Donkey Kong\Player &amp; Hammer%28Stephan Weber%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrel.cpp">
+      <Filter>Donkey Kong\Enemy %28Sandro Mock%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Flame.cpp">
+      <Filter>Donkey Kong\Enemy %28Sandro Mock%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Donkey Kong\DataManager %28Niklas Englmeier%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSlot.cpp">
+      <Filter>Donkey Kong\DataManager %28Niklas Englmeier%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravity.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Ladder.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CircCollObject.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollObject.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Pauline.cpp">
+      <Filter>Donkey Kong\Pauline %28Sandro Mock%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinAnimation.cpp">
+      <Filter>Animations\Win Animation %28Stephan Weber%29</Filter>
+    </ClCompile>
+    <ClCompile Include="StartAnimation.cpp">
+      <Filter>Animations\Start Animation %28Stephan Weber%29</Filter>
+    </ClCompile>
+    <ClCompile Include="GamestateStartAnimation.cpp">
+      <Filter>Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Overlap.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GamestateHighscore.cpp">
+      <Filter>Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrelLadderColl.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameLadderColl.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLadderColl.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="LadderCollision.cpp">
+      <Filter>Donkey Kong\Environment %28Marcus Schaal%29\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPanel.cpp">
+      <Filter>Donkey Kong\HUD and UI %28Niklas Englmeier%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DonkeyKong.cpp">
+      <Filter>Donkey Kong\Enemy %28Sandro Mock%29</Filter>
+    </ClCompile>
+    <ClCompile Include="GamestateControls.cpp">
+      <Filter>Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="GamestateHowHeight.cpp">
+      <Filter>Gamestates</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
